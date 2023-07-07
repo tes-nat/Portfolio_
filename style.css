@@ -98,10 +98,12 @@ body {
 
 .social-section {
   margin-right: 80px;
-  margin-top: 60px;
+  margin-top: 40px;
+    
 }
 
 /* social media icons----------------------------------------------------------------------- */
+
 .Workssection1 {
   border-radius: 8px;
 }
@@ -550,6 +552,7 @@ body {
   list-style: none;
   display: flex;
   gap: 20px;
+
 }
 
 .allsklil {
@@ -590,4 +593,8 @@ body {
   height: 5px;
   background-color: rgb(22, 91, 182);
   margin: 6px 0;
+}
+p {
+  padding: 20px;
+  
 }
