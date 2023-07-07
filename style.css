@@ -12,9 +12,21 @@ body {
   background-color: hsl(0deg 3% 71% / 10%);
 }
 
-.mylogo {
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 58px;
   width: 375px;
-  height: 48px;
+  align-items: center;
+  background-color: #ffff;
+  padding-top: 20px;
+  padding-left: 1px;
+}
+
+.mylogo {
+  width: 76px;
+  height: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -25,7 +37,7 @@ body {
   color: #6070ff;
   margin: 58px;
   margin-left: 24px;
-  font-family: Poppines, sans-serif;
+  font-family: 'Poppines', sans-serif;
   letter-spacing: 0;
 }
 
@@ -46,7 +58,7 @@ body {
 
 .main-header {
   margin-top: 104px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -68,7 +80,7 @@ body {
 /* LET’S CONNECT */
 .connect {
   margin-top: 12px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -86,14 +98,16 @@ body {
 
 .social-section {
   margin-right: 80px;
-  margin-top: 40px;
-}
+  margin-top: 60px;
+  }
 
-.work {
+/* social media icons----------------------------------------------------------------------- */
+.Workssection1 {
   border-radius: 8px;
 }
 
-.cardback {
+/* Card Works */
+.cardBack {
   margin: 52px auto auto 24px;
   box-sizing: border-box;
   display: flex;
@@ -105,6 +119,34 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.cardBack01 {
+  background-image: url('./image/Mobile-Main_3.png');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 375px;
+  height: 568px;
+  border: 0 solid #dfe1e6;
+  border-bottom-left-radius: 50px;
+}
+
+.cardBack2 {
+  margin-top: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 375px;
+  height: 876px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-top-right-radius: 67px;
 }
 
 .cardcontact {
@@ -167,10 +209,10 @@ body {
   gap: 30px;
 }
 
-.skiljava {
-  width: 89px;
+.Program-skilhtml {
+  width: 45px;
   height: 24px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -178,7 +220,7 @@ body {
   letter-spacing: 0.03em;
   color: #6070ff;
   display: flex;
-  background-color: rgb(169 203 241 / 80%);
+  background-color: rgba(169, 203, 241, 0.8);
   text-align: center;
   gap: 20px;
   list-style: none;
@@ -188,10 +230,36 @@ body {
   padding: 4px 12px;
 }
 
+.skiljava {
+  width: 89px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  display: flex;
+  background-color: rgba(169, 203, 241, 0.8);
+  text-align: center;
+  gap: 20px;
+  list-style: none;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+}
+
+.Prog-Lang.works {
+  display: flexbox;
+  flex-direction: column;
+}
+
 .tonic {
   width: 295px;
   height: 0;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -202,7 +270,7 @@ body {
 .tonic2 {
   width: 350px;
   height: 9px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -217,7 +285,7 @@ body {
 .tonic3 {
   width: 350px;
   height: 9px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -232,7 +300,7 @@ body {
 .tonic4 {
   width: 327px;
   height: 101px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -247,7 +315,7 @@ body {
   margin-top: 103px;
   width: 327px;
   height: 56px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -282,8 +350,11 @@ body {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  inset: 15px 38px 15px 16px;
-  font-family: Poppins, sans-serif;
+  left: 16px;
+  right: 38px;
+  top: 15px;
+  bottom: 15px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -294,17 +365,16 @@ body {
 .section1 {
   width: 295px;
   height: 76px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  text-align: left;
 }
 
 .about {
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -315,7 +385,7 @@ body {
 .sectioncontact {
   width: 295px;
   height: 76px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -326,7 +396,7 @@ body {
 .canopy {
   width: 55px;
   height: 16px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -335,10 +405,21 @@ body {
   list-style: none;
 }
 
+.BackendDev {
+  width: 88px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
 .num {
   width: 29px;
   height: 16px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -349,7 +430,7 @@ body {
 .html {
   width: 29px;
   height: 16px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -372,7 +453,7 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
   margin-left: 35px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -385,7 +466,7 @@ body {
 
 .button1:hover {
   background-color: #9fbcf1;
-  color: rgb(243 243 245);
+  color: rgb(243, 243, 245);
 }
 
 .buttonsee {
@@ -414,13 +495,13 @@ body {
 }
 
 .works2 > div {
-  background-color: rgb(80 147 223 / 80%);
+  background-color: rgba(80, 147, 223, 0.8);
   text-align: center;
   font-size: 18px;
   font-weight: 500;
   line-height: 36px;
   border-radius: 8px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -431,22 +512,38 @@ body {
 }
 
 .button:hover {
-  background: rgb(78 145 231);
+  background: rgb(78, 145, 231);
+}
+
+.Program-skil {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .aboutsection {
   margin-left: 24px;
 }
 
+.Programs {
+  width: 100px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  list-style: none;
+  margin-right: 240px;
+}
+
 .connectmywork {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
-  font-family: Poppines, sans-serif;
+  font-family: 'Poppines', sans-serif;
   font-style: normal;
   line-height: 24px;
 }
 
+/* social media icons */
 .social-icons-mywork {
   margin-right: 50px;
   margin-top: 12px;
@@ -466,6 +563,13 @@ body {
   color: #172b4d;
 }
 
+.Programs-lang {
+  width: 100px;
+  height: 66.72px;
+  list-style: none;
+  margin-right: 240px;
+}
+
 .form-control {
   display: block;
   width: 100%;
@@ -473,17 +577,21 @@ body {
   height: 20rem;
   padding: 0.375rem 0.75rem;
   border-radius: 0.3rem;
-  border: 1px solid rgb(223 13 13);
+  border: 1px solid rgb(223, 13, 13);
   margin-top: 1rem;
+}
+
+.burger {
+  float: right;
 }
 
 .humbergericon {
   width: 35px;
   height: 5px;
-  background-color: rgb(22 91 182);
+  background-color: rgb(22, 91, 182);
   margin: 6px 0;
 }
-
 p {
-  padding: 1px;
+  float: left;
+  margin: 20px;
 }
