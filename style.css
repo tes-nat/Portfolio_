@@ -88,11 +88,11 @@ body {
   margin-right: 80px;
   margin-top: 40px;
 }
-/* social media icons----------------------------------------------------------------------- */
+
 .work {
   border-radius: 8px;
 }
-/* Card Works */
+
 .cardback {
   margin: 52px auto auto 24px;
   box-sizing: border-box;
@@ -446,7 +446,7 @@ body {
   font-style: normal;
   line-height: 24px;
 }
-/* social media icons */
+
 .social-icons-mywork {
   margin-right: 50px;
   margin-top: 12px;
@@ -486,4 +486,4 @@ body {
 
 p {
   padding: 0;
-}
+  }
