@@ -87,15 +87,11 @@ body {
 .social-section {
   margin-right: 80px;
   margin-top: 40px;
-    
 }
-
 /* social media icons----------------------------------------------------------------------- */
-
 .work {
   border-radius: 8px;
 }
-
 /* Card Works */
 .cardback {
   margin: 52px auto auto 24px;
@@ -450,7 +446,6 @@ body {
   font-style: normal;
   line-height: 24px;
 }
-
 /* social media icons */
 .social-icons-mywork {
   margin-right: 50px;
@@ -458,7 +453,6 @@ body {
   list-style: none;
   display: flex;
   gap: 20px;
-
 }
 
 .allsklil {
@@ -492,5 +486,4 @@ body {
 
 p {
   padding: 0;
-  
 }
