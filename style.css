@@ -99,7 +99,7 @@ body {
 .social-section {
   margin-right: 80px;
   margin-top: 60px;
-  }
+}
 
 /* social media icons----------------------------------------------------------------------- */
 .Workssection1 {
@@ -591,6 +591,7 @@ body {
   background-color: rgb(22, 91, 182);
   margin: 6px 0;
 }
+
 p {
   float: left;
   margin: 20px;
