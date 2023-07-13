@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Mobile Version Project</b></h3>
+  <h3><b>setup and mobile first</b></h3>
 
 </div>
 
@@ -37,7 +37,7 @@
 > This project was part of Microverse week one tasks.
 It gives the student an opportunity to learn and do with HTML, CSS, and Github.
 
-**[Mobile-Feature]** is a...
+**[setup and mobile first]** is a  project Build a personal portfolio site.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
