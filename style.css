@@ -85,7 +85,7 @@ body {
 }
 
 .social-section {
-  margin-right: 80px;
+  margin-right: 112px;
 }
 
 .cardback {
@@ -128,6 +128,7 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 67px;
+  margin-left: 22px;
 }
 
 .cardcontact {
@@ -141,16 +142,16 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  width: 375px;
-  height: 779px;
+  width: 100%;
+  max-width: 395px;
   border: 0 solid #bbbcc0;
   background-color: #6070ff;
-  border-top-left-radius: 50px;
+  border-top-left-radius: 81px;
 }
 
 .card1 {
   width: 295px;
-  height: 220px;
+  height: 210px;
   border-radius: 8px;
   background-image: url('./image/Snapshoot Portfolio1 (1).png');
 }
@@ -180,7 +181,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding-right: 108px;
+  padding-right: 122px;
   padding-left: 28px;
 }
 
@@ -208,7 +209,8 @@ body {
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 3px;
+  margin-top: -30px;
 }
 
 .skiljava {
@@ -229,7 +231,8 @@ body {
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 3px;
+  margin-top: -31px;
 }
 
 .tonic {
@@ -243,35 +246,22 @@ body {
   color: #172b4d;
 }
 
-.tonic2 {
-  width: 350px;
-  height: 9px;
+.tonic2,
+.tonic3,
+.tonic4 {
+  width: 353px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 40px;
   display: flex;
   align-items: center;
   color: #172b4d;
   padding-right: 80px;
-  padding-left: 20px;
+  padding-left: 24px;
 }
 
-.tonic3 {
-  width: 350px;
-  height: 9px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  padding-right: 80px;
-  padding-left: 20px;
-}
 
 .tonic4 {
   width: 327px;
@@ -341,7 +331,7 @@ body {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 24px;
   color: #344563;
 }
@@ -413,6 +403,7 @@ body {
 }
 
 .button1 {
+  padding-top: 3px;
   background-color: #fff;
   box-sizing: border-box;
   display: flex;
@@ -421,20 +412,21 @@ body {
   gap: 10px;
   position: absolute;
   width: 182px;
-  height: 48px;
-  left: 0;
+  height: 36px;
+  left: -6px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-left: 35px;
+  margin-left: 44px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  padding-left: 30px;
+  padding-left: 2px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+  margin-top: -12px;
 }
 
 .button1:hover {
@@ -530,7 +522,7 @@ body {
 }
 
 .make {
-  width: 100px;
+  width: 113px;
   height: 66.72px;
   list-style: none;
   margin-right: 240px;
