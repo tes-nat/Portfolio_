@@ -86,6 +86,7 @@ body {
 
 .social-section {
   margin-right: 112px;
+  padding-left: 25px;
 }
 
 .cardback {
@@ -123,12 +124,12 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  width: 375px;
   height: 876px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 67px;
   margin-left: 22px;
+  width: 375px;
 }
 
 .cardcontact {
@@ -183,12 +184,16 @@ body {
   gap: 10px;
   padding-right: 122px;
   padding-left: 28px;
+  margin-top: 20px;
 }
 
 .works {
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+.Program-skil1{
+  gap: 10px;
 }
 
 .program-skill-html {
@@ -260,6 +265,8 @@ body {
   color: #172b4d;
   padding-right: 80px;
   padding-left: 24px;
+  margin: 0px;
+  margin-top: 26px;
 }
 
 .tonic4 {
@@ -342,6 +349,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  padding-left: 7px;
 }
 
 .sectioncontact {
@@ -402,18 +410,17 @@ body {
 }
 
 .button1 {
-  padding-top: 3px;
-  background-color: #fff;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
   position: absolute;
-  width: 182px;
   height: 36px;
-  left: -6px;
-  border: 1px solid #6070ff;
+  left: -3px;
+  border: 1px solid rgba(127, 140, 255, 1);
   border-radius: 8px;
   margin-left: 44px;
   font-family: Poppins, sans-serif;
@@ -421,20 +428,20 @@ body {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  padding-left: 2px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396df2;
-  margin-top: -12px;
+  color: rgb(85, 99, 233);
+  margin-top: 10px;
 }
+
 
 .button1:hover {
-  background-color: #9fbcf1;
-  color: rgb(243 243 245);
-}
+  background-color: rgba(127, 140, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  }
 
 .buttonsee {
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .buttonsee2 {
@@ -489,7 +496,8 @@ body {
   background: #f7f7f9;
   border-radius: 8px;
   list-style: none;
-  margin-right: 240px;
+  margin: 6px;
+
 }
 
 .connectmywork {
@@ -499,6 +507,7 @@ body {
   font-family: Poppines, sans-serif;
   font-style: normal;
   line-height: 24px;
+  padding-left: 2px;
 }
 
 .social-icons-mywork {
@@ -509,22 +518,9 @@ body {
   gap: 20px;
 }
 
-.allsklil {
-  width: 295px;
-  height: 0;
-  font-family: 'Poppins:ital', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 0px;
-  color: #172b4d;
-}
-
 .make {
-  width: 113px;
   height: 66.72px;
   list-style: none;
-  margin-right: 240px;
 }
 
 .form-control {
