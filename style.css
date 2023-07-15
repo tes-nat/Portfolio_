@@ -193,7 +193,7 @@ body {
   gap: 30px;
 }
 
-.prog-gap{
+.prog-gap {
   gap: 10px;
 }
 
@@ -435,11 +435,10 @@ body {
   margin-top: 10px;
 }
 
-
 .button1:hover {
   background-color: rgb(127 140 255 / 100%);
   color: rgb(255 255 255 / 100%);
-  }
+}
 
 .buttonsee {
   margin-bottom: 28px;
@@ -498,7 +497,6 @@ body {
   border-radius: 8px;
   list-style: none;
   margin: 6px;
-
 }
 
 .connectmywork {
